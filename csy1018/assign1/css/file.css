@@ -1,9 +1,4 @@
 /*Alexandra Proxenia, student_number 17419237*/
-<html>
-<style>
-ul {background: pink;
-padding: 20px;
-}
 body {
   font-family: 'Taviraj', serif;/*google webfont API*/
 }
@@ -11,14 +6,14 @@ ul {
 list-style: none;
 background-color: pink;
 padding: 0px;
+margin: 0;
+padding: 0;
 }
 li:hover {background-color: yellow;
 color: purple;
 }
-ul1 {list-style-type: none;
+li {display:inline;}
+ul {list-style-type: none;
 margin: 0;
 padding: 0;
 }
-
-</style>
-</html>
