@@ -1,12 +1,15 @@
 /* Alexandra Proxenia, student_number 17419237 */
+/*lists*/
 body
 ul {
-list-style: none;
-background-color: pink;
-padding: 0px;
-margin: 0;
-padding: 0;
-}
-{
-  font-family: 'Taviraj', serif;/*google webfont API*/
-}
+list-style-type: none;
+background-color: lightblue;
+padding: 30px;
+margin: 20;
+padding: 20;}
+{font-family: 'Taviraj', serif;/*google webfont API*/}
+li.links:hover {background-color: grey;}
+li.links
+{display: inline;
+float: right;
+padding: 8px;}

@@ -1,20 +1,35 @@
 /*Alexandra Proxenia, student_number 17419237*/
+/*font*/
 body {
-  font-family: 'Taviraj', serif;/*google webfont API*/
+font-family: 'Taviraj', serif;/*google webfont API*/
 }
+/*lists*/
 ul {
-list-style: none;
-background-color: pink;
-padding: 0px;
-margin: 0;
-padding: 0;
+list-style-type: none;
+background-color: lightblue;
+padding: 30px;
+margin: 20;
+padding: 20;
 }
-span.mydata {color: red;}
-li:hover {background-color: yellow;
-color: white;
-}
-li {display:inline;}
-ul {list-style-type: none;
-margin: 0;
-padding: 0;
-}
+li {color: #000;}
+li.links:hover {background-color: grey;}
+li.links {display: inline;
+float: right;
+padding: 8px;}
+/*contact boxes*/
+input[type=text] {width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+color: grey;}
+input[type=text]:focus {border: 3px solid #000;}
+/*textarea box*/
+textarea {width: 50%;
+height: 300px;}
+/*email box*/
+input[type=email]{width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+color: grey;}
+input[type=email]:focus {border: 3px solid#000;}
