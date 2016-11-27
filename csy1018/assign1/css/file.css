@@ -4,12 +4,10 @@ body {
 font-family: 'Taviraj', serif;/*google webfont API*/
 }
 /*lists*/
-ul {
+ul.a {
 list-style-type: none;
-background-color: lightblue;
+background-color: #ff66ff;
 padding: 30px;
-margin: 20;
-padding: 20;
 }
 li {color: #000;}
 li.links:hover {background-color: grey;}
@@ -33,3 +31,10 @@ margin: 8px 0;
 box-sizing: border-box;
 color: grey;}
 input[type=email]:focus {border: 3px solid#000;}
+/*submit box*/
+input[type=submit]:hover {background-color: #ff66ff;}
+input[type=submit]{width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+color: grey;}
