@@ -10,7 +10,7 @@ margin: 0;
 padding: 0;
 }
 li:hover {background-color: yellow;
-color: purple;
+color: white;
 }
 li {display:inline;}
 ul {list-style-type: none;
