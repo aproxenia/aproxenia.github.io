@@ -21,7 +21,7 @@ input[type=text] {width: 50%;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
-color: grey;}
+color: #c2aaa3;}
 input[type=text]:focus {border: 3px solid #000;}
 /*textarea box*/
 textarea {width: 50%;
@@ -31,7 +31,7 @@ input[type=email]{width: 50%;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
-color: grey;}
+color: #c2aaa3;}
 input[type=email]:focus {border: 3px solid#000;}
 /*submit box*/
 input[type=submit]:hover {background-color: #996666;}
@@ -39,4 +39,4 @@ input[type=submit]{width: 50%;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
-color: grey;}
+color: #c2aaa3;}
