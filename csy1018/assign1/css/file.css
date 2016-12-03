@@ -2,7 +2,7 @@
 /*font*/
 body {
 font-family: 'Taviraj', serif;/*google webfont API*/
-}
+max-width 1000px;}
 /*header*/
 ul.a {
 list-style-type: none;
@@ -40,9 +40,5 @@ padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
 color: #c2aaa3;}
+foot:visited {background-color: #ad8585;}
 /*footer*/
-ul.c li {list-style: none;
-background-color: #ad8585;
-padding: 20px;
-color: #ccb3b3;
-display:block;}
