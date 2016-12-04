@@ -47,6 +47,7 @@ color: #c2aaa3;}
 /*footer*/
 footer {background-color: #ad8585;
 color:#ebe0e0;}
+.copuright{text-align: right;}
 /*footer*/
 /*image book center*/
 img.book {max-width: 750px;
@@ -59,21 +60,24 @@ right: 16px;
 font-size: 18px;}
 /*end of image book center*/
 /*gallery images*/
-div.stackofbooks {margin: 5px;
-border-radius: 50%;
+div.stackofbooks {display: inline-block;
+margin: 15px;
 width: auto;
-height: auto;;
-margin: auto;}
+height: auto;
+margin: auto;
+padding:45px; }
 div.description {padding: 10px 20px;
 text-align: center;}
-div.oldbooks {margin: 5px;
-border-radius: 50%;
+div.oldbooks {display : inline-block;
+margin: 15px;
 margin: auto;
-width: auto;}
+width: auto;
+padding-left: 45px;}
 div.descr {padding: 15px;
 text-align: center;}
-div.fotobox{width: 750;
-border: 5px solid grey;
-padding: 25px;
-margin:25px;
-margin-bottom: 60px;}
+div.fotobox{max-width: 750px;
+border: 5px solid #ad8585;
+padding: 20px;
+margin:20px;
+margin-bottom: 60px;
+margin-top: 20px;}
