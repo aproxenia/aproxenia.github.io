@@ -19,17 +19,17 @@ padding: 8px 16px;
 color: white;
 text-decoration: none;}
 /*contact boxes*/
-input[type=text] {width: 50%;
+input[type=text] {width: 70%;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
 color: #c2aaa3;}
 input[type=text]:focus {border: 3px solid #000;}
 /*textarea box*/
-textarea {width: 50%;
+textarea {width: 70%;
 height: 300px;}
 /*email box*/
-input[type=email]{width: 50%;
+input[type=email]{width: 70%;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
@@ -37,7 +37,7 @@ color: #c2aaa3;}
 input[type=email]:focus {border: 3px solid#000;}
 /*submit box*/
 input[type=submit]:hover {background-color: #996666;}
-input[type=submit]{width: 50%;
+input[type=submit]{width: 70%;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
