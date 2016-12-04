@@ -2,7 +2,9 @@
 /*font*/
 body {
 font-family: 'Taviraj', serif;/*google webfont API*/
-max-width 1000px;}
+max-width: 750px;
+margin: auto;
+}
 /*header*/
 ul.a {
 list-style-type: none;
@@ -44,3 +46,12 @@ color: #c2aaa3;}
 footer {background-color: #ad8585;
 color:#ebe0e0;}
 /*footer*/
+/*image book*/
+img.book {max-width: 750px;
+height: auto;}
+.container {position: relative;
+color: white;}
+.bottomright {position: absolute;
+bottom:8px;
+right: 16px;
+font-size: 18px;}
