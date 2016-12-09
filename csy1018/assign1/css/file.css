@@ -9,7 +9,7 @@ margin: auto;
 ul.a {
 list-style-type: none;
 background-color: #ad8585;
-padding: 40px;
+padding: 50px;
 }
 li a:hover {background-color:#996666;
 }
