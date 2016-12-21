@@ -46,7 +46,17 @@ color: #c2aaa3;}
 /*end of contact boxes*/
 /*footer*/
 footer {background-color: #ad8585;
-color:#ebe0e0;}
+color: #ebe0e0;}
+.flex-container {display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: column;
+max-width: 300px;
+height: 200px;}
+.flex-item {
+background-color:#996666;
+width: 160px;
+height: 50px;
+margin: 10px;}
 .copuright{text-align: right;}
 /*footer*/
 /*image book center*/
