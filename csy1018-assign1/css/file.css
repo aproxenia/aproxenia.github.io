@@ -17,7 +17,8 @@ li a {display: inline;/*display horizontal*/
 float: right;/*the words is on the right site*/
 padding: 8px 16px;/*the words have a distance between them and they are not on the center of the nav bar*/
 color: white;/*the words color*/
-text-decoration: none;}/*no further decoration*/
+text-decoration: none;/*no further decoration*/
+}
 /*end of header*/
 /*contact boxes*/
 /*the type of box is text*/
@@ -25,74 +26,96 @@ input[type=text] {width: 70%;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;/*the box width,the padding when we wrote and margin*/
-color: #c2aaa3;}/*the color of the text when we write inside*/
-input[type=text]:focus {border: 3px solid #000;}/*we can write text inside and the color of border change when we write inside of the box*/
+color: #c2aaa3;/*the color of the text when we write inside*/
+}
+input[type=text]:focus
+{border: 3px solid #000;/*we can write text inside and the color of border change when we write inside of the box*/
+}
 /*textarea box*/
 textarea
 {width: 70%;/*the width  of text*/
-height: 300px;}/*and height of the text*/
+height: 300px;/*and height of the text*/
+}
 /*email box*/
 input[type=email]/*here we write the address of email*/
-{width: 70%;
+{
+width: 70%;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
-color: #c2aaa3;}/*the box size and the color of text */
-input[type=email]:focus {border: 3px solid#000;}/*its border and the color of border when we write inside*/
+color: #c2aaa3;/*the box size and the color of text */
+}
+input[type=email]:focus
+{
+  border: 3px solid#000;/*its border and the color of border when we write inside*/
+}
 /*submit box*/
-input[type=submit]:hover {background-color: #996666;}
+input[type=submit]:hover {background-color: #996666;}/*the background color of sumbit box and its type*/
 input[type=submit]{width: 70%;
 padding: 12px 20px;
 margin: 8px 0;
-box-sizing: border-box;
-color: #c2aaa3;}
+box-sizing: border-box;/*the size of box*/
+color: #c2aaa3;/*the color of text*/
+}
 /*end of contact boxes*/
 /*footer*/
-footer {background-color: #ad8585;
-color: #ebe0e0;}
+footer {background-color: #ad8585;/*the backround color of footer*/
+color: #ebe0e0;/*the color of the text*/
+}
 /*flexboxes*/
-.flex-container {display: -webkit-flex;/*i use chrone*/
+.flex-container {display: -webkit-flex;/*webkit used for chrone*/
 display: flex;
--webkit-flex-direction: column;
+-webkit-flex-direction: column;/*webkit used for chrone*/
 max-width: 300px;
-height: 200px;}
+height: 200px;/*lines 67 to 68 the exactly size of flexbox*/
+}
 .flex-item {
 width: 160px;
 height: 50px;
-margin: 5px;}
+margin: 5px;/*lines 60 to 62 the exactly size of flexitem which included to the flexbox*/
+}
 /*end of flexboxes*/
-.copuright{text-align: right;}
+.copyright{text-align: right;
+}/*copyright class*/
 /*footer*/
 /*image book center*/
 img.book {max-width: 750px;/*width depend of the screen,comfortable in mobiles*/
-height: auto;}
+height: auto;
+}
 .container {position: relative;
-color: white;}
+color: white;/*the color of the text which is contained in the picture*/
+}
 .bottomright {position: absolute;
 bottom:8px;
 right: 16px;
-font-size: 18px;}
+font-size: 18px;/*lines 71-74 the exactly position of the text in the picture*/
+}
 /*end of image book center*/
 /*gallery images*/
-div.stackofbooks {display: inline-block;
+div.stackofbooks {display: inline-block;/*the photo display inline*/
 margin: 15px;
 width: auto;
 height: auto;
 margin: auto;
-padding:45px; }
-div.description {padding: 10px 20px;
-text-align: center;}
-div.oldbooks {display : inline-block;
+padding:45px; /*lines 78-82 the exacly location of pictyre in the page*/
+}
+div.description {padding: 10px 20px;/*description of photo*/
+text-align: center;/*the description of photo align in the center*/
+}
+div.oldbooks {display : inline-block;/*the photo display inline*/
 margin: 15px;
 margin: auto;
 width: auto;
-padding-left: 45px;}
+padding-left: 45px;/*lines 88-91 the exactly location of the poto ih the page*/
+}
 div.descr {padding: 15px;
-text-align: center;}
+text-align: center;/*description text of photo align to the center*/
+}
 /*box in index page*/
 div.fotobox{max-width: 750px;
 border: 5px solid #ad8585;
 padding: 20px;
 margin:20px;
 margin-bottom: 60px;
-margin-top: 20px;}
+margin-top: 20px;/*the lines 98-102 refered to a box in index page and its size compared to text which include*/
+}
