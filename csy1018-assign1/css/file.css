@@ -27,10 +27,12 @@ box-sizing: border-box;
 color: #c2aaa3;}
 input[type=text]:focus {border: 3px solid #000;}
 /*textarea box*/
-textarea {width: 70%;
+textarea
+{width: 70%;
 height: 300px;}
 /*email box*/
-input[type=email]{width: 70%;
+input[type=email]
+{width: 70%;
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
@@ -47,16 +49,15 @@ color: #c2aaa3;}
 /*footer*/
 footer {background-color: #ad8585;
 color: #ebe0e0;}
-.flex-container {display: -webkit-flex;
+.flex-container {display: -webkit-flex;/*i use chrone*/
 display: flex;
 -webkit-flex-direction: column;
 max-width: 300px;
 height: 200px;}
 .flex-item {
-background-color:#996666;
 width: 160px;
 height: 50px;
-margin: 10px;}
+margin: 5px;}
 .copuright{text-align: right;}
 /*footer*/
 /*image book center*/
