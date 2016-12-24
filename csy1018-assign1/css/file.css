@@ -19,6 +19,8 @@ padding: 8px 16px;/*the words have a distance between them and they are not on t
 color: white;/*the words color*/
 text-decoration: none;/*no further decoration*/
 }
+@media screen and (max-width: 450px){
+ul.a {background-color: #996680;}}/*the nav bar change color when is small*/
 /*end of header*/
 /*contact boxes*/
 /*the type of box is text*/
