@@ -4,13 +4,13 @@ body {
 font-family: 'Taviraj', serif;/*google webfont API*/
 max-width: 750px;/*width depend of the screen,comfortable in mobiles*/
 margin: auto;
-font-size: 1.0em;}
+font-size: 80%;}
 /*header*/
 ul.a {
 list-style-type: none;/*without number or bullets*/
 background-color: #ad8585;
 padding: 50px;
-}
+font-size: 1.2em}
 li a:hover {background-color:#996666;/*the color of hover*/
 }
 li a {display: inline;/*display horizontal*/
@@ -24,6 +24,7 @@ text-decoration: none;/*no further decoration*/
 /*end of header*/
 /*contact boxes*/
 /*the type of box is text*/
+label {font-size: 1.2em;}
 input[type=text]
  {width: 70%;
 padding: 12px 20px;
@@ -77,7 +78,7 @@ height: 200px;/*lines 67 to 68 the exactly size of flexbox*/
  {width: 160px;
 height: 50px;
 margin: 5px;/*lines 60 to 62 the exactly size of flexitem which included to the flexbox*/
- }
+ font-size: 1.2em;}
 /*end of flexboxes*/
 .copyright
 {text-align: right;
@@ -96,7 +97,7 @@ color: white;/*the color of the text which is contained in the picture*/
  {position: absolute;
 bottom:8px;
 right: 16px;
-font-size: 18px;/*lines 71-74 the exactly position of the text in the picture*/
+font-size: 1.2em;/*lines 71-74 the exactly position of the text in the picture*/
  }
 /*end of image book center*/
 /*gallery images*/
@@ -111,7 +112,7 @@ padding:45px; /*lines 78-82 the exacly location of pictyre in the page*/
 div.description
  {padding: 10px 20px;/*description of photo*/
 text-align: center;/*the description of photo align in the center*/
- }
+ font-size: 1.2em;}
 div.oldbooks
  {display : inline-block;/*the photo display inline*/
 margin: 15px;
@@ -122,7 +123,7 @@ padding-left: 45px;/*lines 88-91 the exactly location of the poto ih the page*/
 div.descr
  {padding: 15px;
 text-align: center;/*description text of photo align to the center*/
- }
+ font-size: 1.2em;}
 /*box in index page*/
 div.fotobox
  {max-width: 750px;
@@ -131,4 +132,8 @@ padding: 20px;
 margin:20px;
 margin-bottom: 60px;
 margin-top: 20px;/*the lines 98-102 refered to a box in index page and its size compared to text which include*/
- }
+ font-size: 1.2em;}
+ p {font-size: 1.2em;}
+ li {font-size: 1.2em;}
+ h3 {font-size: 1.5em;}
+ h2 {font-size: 1.6em;}
