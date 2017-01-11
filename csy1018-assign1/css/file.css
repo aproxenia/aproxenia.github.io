@@ -46,10 +46,10 @@ input[type=email]/*here we write the address of email*/
 padding: 12px 20px;
 margin: 8px 0;
 box-sizing: border-box;
-color: #c2aaa3;/*the box size and the color of text */
- }
+color: #c2aaa3;
+ }/*the box size and the color of text */
 input[type=email]:focus
- {border: 3px solid#000;/*its border and the color of border when we write inside*/
+ {border: 3px solid#000;/*the color of border chance when we write inside*/
  }
 /*submit box*/
 input[type=submit]:hover
@@ -72,12 +72,12 @@ color: #ebe0e0;/*the color of the text*/
 display: flex;
 -webkit-flex-direction: column;/*webkit used for chrone*/
 max-width: 300px;
-height: 200px;/*lines 67 to 68 the exactly size of flexbox*/
+height: 200px;/*lines 74 to 75 the exactly size of flexbox*/
  }
 .flex-item
  {width: 160px;
 height: 50px;
-margin: 5px;/*lines 60 to 62 the exactly size of flexitem which included to the flexbox*/
+margin: 5px;/*lines 78 to 80 the exactly size of flexitem which included to the flexbox*/
  font-size: 1.2em;}
 /*end of flexboxes*/
 .copyright
@@ -97,7 +97,7 @@ color: white;/*the color of the text which is contained in the picture*/
  {position: absolute;
 bottom:8px;
 right: 16px;
-font-size: 1.2em;/*lines 71-74 the exactly position of the text in the picture*/
+font-size: 1.2em;/*lines 97-100 the exactly position of the text in the picture*/
  }
 /*end of image book center*/
 /*gallery images*/
@@ -107,7 +107,7 @@ margin: 15px;
 width: auto;
 height: auto;
 margin: auto;
-padding:45px; /*lines 78-82 the exacly location of pictyre in the page*/
+padding:45px; /*lines 106-110 the exacly location of pictyre in the page*/
  }
 div.description
  {padding: 10px 20px;/*description of photo*/
@@ -118,7 +118,7 @@ div.oldbooks
 margin: 15px;
 margin: auto;
 width: auto;
-padding-left: 45px;/*lines 88-91 the exactly location of the poto ih the page*/
+padding-left: 45px;/*lines 118-121 the exactly location of the poto ih the page*/
  }
 div.descr
  {padding: 15px;
@@ -131,10 +131,9 @@ border: 5px solid #ad8585;
 padding: 20px;
 margin:20px;
 margin-bottom: 60px;
-margin-top: 20px;/*the lines 98-102 refered to a box in index page and its size compared to text which include*/
+margin-top: 20px;/*the lines 130-134 refered to a box in index page and its size compared to text which include*/
  font-size: 1.2em;}
- p {font-size: 1.2em;}
- li {font-size: 1.2em;}
  h3 {font-size: 1.5em;}
  h2 {font-size: 1.6em;}
  h4{font-size: 1.4em;}
+p, li {font-size: 1.2em;}
